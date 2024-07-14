@@ -11,11 +11,11 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '94701992015' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'youre session id' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=2I1nBZaL#NYjv1ykeAXCTEU_NsntZH3Dkyz0112vkK9ZqCKWw1xI' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
 MODERATORS : process.env.MODERATORS === undefined ? "94772801923,94787820101" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
-OWNER_NAME: process.env.OWNER_NAME || 'VAJIRA' ,
+OWNER_NAME: process.env.OWNER_NAME || 'Nethu' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
 LOGO: process.env.LOGO || `https://telegra.ph/file/ab0ea6ad90e2eb98090d9.jpg` ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,
@@ -35,7 +35,7 @@ HEROKU_APP_NAME: process.env.HEROKU_APP_NAME === undefined ? '' : process.env.HE
 INBOX_USER: process.env.INBOX_USER === undefined ? '' : process.env.INBOX_USER,
 BANNED_USER: process.env.BANNED_USER === undefined ? '' : process.env.BANNED_USER ,    
 AI_MODE: process.env.AI_MODE === undefined ? 'true' : process.env.AI_MODE,
-ANTI_LINK: process.env.ANTI_LINK || false  ,
+ANTI_LINK: process.env.ANTI_LINK || true  ,
 BOT_DETECT: process.env.BOT_DETECT === undefined ? 'false' : process.env.BOT_DETECT,    
 ANTI_BOT: process.env.ANTI_BOT || false  ,
 ANTI_CALL: process.env.ANTI_CALL || false  ,
